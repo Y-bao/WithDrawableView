@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ybao.withdrawableview.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableBottom="@mipmap/ic_launcher"
+        android:drawableLeft="@mipmap/ic_launcher"
+        android:drawableRight="@mipmap/ic_launcher"
+        android:drawableTop="@mipmap/ic_launcher"
+        android:gravity="center"
+        android:text="TextView" />
+
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:button="@null"
+        android:drawableBottom="@android:drawable/btn_radio"
+        android:drawableLeft="@android:drawable/btn_radio"
+        android:drawableRight="@android:drawable/btn_radio"
+        android:drawableTop="@android:drawable/btn_radio"
+        android:gravity="center"
+        android:text="RadioButton" />
+
+    <com.ybao.library.DrawableTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableBottom="@mipmap/ic_launcher"
+        android:drawableLeft="@mipmap/ic_launcher"
+        android:drawableRight="@mipmap/ic_launcher"
+        android:drawableTop="@mipmap/ic_launcher"
+        android:gravity="center"
+        android:text="DrawableTextView" />
+
+    <com.ybao.library.DrawableGRadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:button="@null"
+        android:clickable="true"
+        android:drawableBottom="@android:drawable/btn_radio"
+        android:drawableLeft="@android:drawable/btn_radio"
+        android:drawableRight="@android:drawable/btn_radio"
+        android:drawableTop="@android:drawable/btn_radio"
+        android:gravity="center"
+        android:text="DrawableGRadioButton" />
+</RadioGroup>
